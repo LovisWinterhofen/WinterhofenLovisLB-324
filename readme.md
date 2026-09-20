@@ -24,10 +24,12 @@ Die Applikation ist auf Render verfügbar:
 
 https://winterhofen-lb324.onrender.com
 
-Das Passwort der produktiven Anwendung wird nicht im Repository gespeichert.
-Auf Render wurde unter Environment Variables folgende Variable gesetzt:
+Die Auslieferung erfolgt auf Render als mit der Lehrperson abgesprochene Alternative zu Azure.
 
-PASSWORD=LovisWinterhofen
+Das lokale Passwort aus der `.env`-Datei wird nicht im Repository gespeichert.
+
+Auf Render wurde unter Environment Variables die Variable `PASSWORD` angelegt.
+Als Wert wird gemäss Aufgabenstellung der GitHub-Benutzername verwendet.
 
 Für die automatische Auslieferung wurde auf Render ein Deploy Hook erstellt.
 Die Deploy-Hook-URL wird auf GitHub als Repository Secret
